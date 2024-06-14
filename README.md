@@ -36,3 +36,72 @@ In terms of coding, I overcame those obstacles by simplified and improving my co
 Reflecting on the classes, there are several areas in my process that I could improve for the future. 
 Simplifying and use pseudocode for better code structures would really improve my codes for the next time. In summary, planning, time management, communication (to lecturer), testing, documentation, and reflection each coding session will definitely lead to improved project outcomes for the next one.
 Overall, experiences with using classes taught me, mostly in resilience and problem-solving more complex tasks efficiency in a more organised way.
+
+# Work Journal
+
+
+Work Entries: Each time you work on the assignment, record an entry in your journal that includes: 
+• Date and time you worked, including duration 
+•What you worked on with simple details, enough that someone reading it would understand 
+• Any difficulties you faced and how you overcame them
+Entry 1
+Date: 22/1/2023 - morning
+Duration: 30 minutes
+Detail: 
+•	Started going through the assignment 2 pdf provided on LearnJCU 
+•	Started drafting the pseudocode 
+o	Left out the loading of the saved text file as I was really unsure on how the code would look like at the moment
+Difficulties: 
+•	The written pseudocode done for this part could be done in a lot shorter time if I could think of the appropriate naming off the top of my head. Checking the Pseudocode Guide was really helpful. 
+Date: 22/1/2023 - afternoon
+Duration: 45 minutes
+Detail: 
+•	Started the main function. Leaving out the loading option at the beginning of the main function for later.
+•	Picking the right loop to use was not as tricky as the first time before the practical class, since I have done menu with function previously. The same also goes for picking the right statement to use for if, elif, else.
+•	Stop when the main and greeting function was done after a few times fixing the code
+Difficulties: 
+•	Was really unsure if the main function would work correctly as intended or not since I didn’t finish all the functions used in the main. However, already tested for greeting function when the program is run.
+•	Took a few tries to get the spacing right so the output from the code would look like the one in the given example. Use of print() and \n
+
+
+
+
+Entry 2
+Date: 25/1/2023 
+Duration: 90 minutes
+Detail:
+•	Finished coding the rest of the function.
+•	Took a few times to correct all the error during the process. Previous practical works were really helpful as the guideline on how the code should look like step by step.
+•	Went back and started on reading the plants text file
+•	Unsuccessful on getting the file to read the texts and store them as list variable
+Difficulties:
+•	Using the right command to store texts in file as list variable
+Entry 3
+Date: 30/1/2023
+Duration: 60 minutes
+Detail: 
+•	Double check everything. Comparing the output with the given example, adjusting the constant for rainfall were quite helpful as I was really unlucky to get the wanted amount of rainfall to test carious scenario.
+•	Still unsuccessful on storing the texts in file as list variable
+Difficulties:
+•	Using the right command to store texts in file as list variable
+Entry 4
+Date: 31/1/2023
+Duration: 120 minutes
+Detail
+•	Managed to read the plants.txt file and stored text data as a list 
+•	Realising unwanted output when the plants has all died.
+o	Input for choice is still requested by the code but output as error when input choice “(W)ait”.
+•	Fixing Pseudocode after getting all the codes to work correctly.
+•	Create a function for each choice input as its own section
+o	Create pseudocode for function for simulating a day on its own section.
+	Previously the entire section under if choice == ‘w’: was the code for simulating the next day. Now after input choice as ‘w’, the next code run is the function.
+Difficulty:
+•	Not realising ‘pass’ to do nothing in ‘if’ statement is needed when choice == ‘w’ and no plants are present in the garden.
+•	The main difficulty for me which took the longest time to complete this part was the lack of understanding how function returns the variable.
+o	Took a while fixing and trying many variations of code to get “food = simulate_day(plants)”.
+
+Summary
+ It has been quite a fun and challenging process to this assignment. The problem that always occur to me was due to the lack of understanding how to correctly pass on arguments. Sometimes, I understood what I needed to use but however, calling the right variable or the needs to create new ones where quite confusing. To solve the issues I found in my code, I needed to spent quite a lot of time trying many solutions, combinations, and/or variations of coding to truly understands how it works. I felt like this assignment has the same process of trying and getting it right after failing as the same as the practical sessions I have been having on campus but this took a little bit longer. 
+ Now, I have learned that there are always a way for coding and there is always a shorter better code for it . For example, multiple lines of code I have written can be shorten with a few built-in functions available on PyCharm. Good thing is I will be learning those in the future, improving my coding later on. 
+ To improve my skill and develop solution faster than what I have done for this assignment, for some parts, for example, reading and editing a different variable type from a text file to python variable, I need to go back studying the notes on how the function work step by step. In addition, practising in my on time would be a lot of help as I will get to know and learn from failing what I could not do.
+
